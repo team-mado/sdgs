@@ -1,0 +1,71 @@
+body {
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+main .gray-box {
+  width: 100%;
+  height: 200px;
+  background-color: #d4d6d5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .gray-box .top-logo {
+  width: 300px;
+}
+
+main h2 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #004c88;
+}
+
+main h1 {
+  font-size: 19px;
+  font-weight: bold;
+  color: #00a6d9;
+}
+
+main .button-box {
+  width: 100%;
+  text-align: center;
+}
+
+main .button-box bottom {
+  margin: 0 auto;
+}
+
+main .pw-text {
+  margin-top: -10px;
+}
+
+.modal a.close-modal[class*="icon-"] {
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0;
+  background: #900;
+  border: 2px solid #fff;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=index.css.map */

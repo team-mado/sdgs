@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,KAAK,EAAE,GAAG;CACX;;AAED,AAAA,CAAC,CAAC;EACA,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CAMlB;;AARD,AAIE,CAJD,CAIC,cAAc,CAAC;EACb,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "ogp-ichiran.scss"
+    ],
+    "names": [],
+    "file": "ogp-ichiran.css"
+}

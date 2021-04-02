@@ -1,0 +1,20 @@
+body {
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  max-width: 600px;
+  /* なぜか横幅と下2行を入れないとならず */
+  margin: 0 auto;
+  text-align: left;
+}
+
+#title-bt {
+  width: 90%;
+  background: #004c88;
+}
+
+.center {
+  text-align: center;
+}

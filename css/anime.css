@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* キャッチが横から登場 */
+.Headline {
+  -webkit-animation: SlideIn 1.6s infinite;
+          animation: SlideIn 1.6s infinite;
+}
+
+@-webkit-keyframes SlideIn {
+  0% {
+    opacity: 0;
+    /*初期状態では透明に*/
+    -webkit-transform: translateX(64px);
+            transform: translateX(64px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes SlideIn {
+  0% {
+    opacity: 0;
+    /*初期状態では透明に*/
+    -webkit-transform: translateX(64px);
+            transform: translateX(64px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.simple_square_btn1 {
+  width: 190px;
+  height: 44px;
+  margin: 0.8em;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: #00a6d9;
+  border-radius: 30px;
+}
+
+.simple_square_btn1:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 30px;
+}
+/*# sourceMappingURL=anime.css.map */
