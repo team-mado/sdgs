@@ -36,10 +36,11 @@
 .simple_square_btn1 {
   width: 190px;
   height: 44px;
-  margin: 0.8em;
   margin-top: 10px;
   text-align: center;
   text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
   color: #fff;
   background: #31b2d5;
   border-radius: 30px;
@@ -82,19 +83,6 @@ main .gray-box .top-logo {
   width: 300px;
 }
 
-main h2 {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: bold;
-  color: #004c88;
-}
-
-main h1 {
-  font-size: 19px;
-  font-weight: bold;
-  color: #0099d9;
-}
-
 main .button-box {
   width: 100%;
   text-align: center;
@@ -112,11 +100,26 @@ body {
   font-family: "Noto Sans JP", 游ゴシック, "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Noto Sans Japanese", Meiryo, sans-serif;
   padding-left: 20px;
   padding-right: 20px;
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: 100%;
+}
+
+h2 {
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+}
+
+h1 {
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
 }
 
 header {
   width: 100%;
-  height: 96px;
+  height: 80px;
   text-align: left;
   position: relative;
 }
@@ -181,7 +184,40 @@ a {
   text-align: center;
 }
 
-.popup-title {
-  font-size: 17px;
+/* モーダルCSS */
+.modalArea {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  /*サイトによってここの数値は調整 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modalBg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30, 30, 30, 0.9);
+}
+
+.modalWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 70%;
+  max-width: 500px;
+  padding: 10px 30px;
+  background-color: #fff;
+}
+
+.closeModal {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  cursor: pointer;
 }
 /*# sourceMappingURL=component.css.map */

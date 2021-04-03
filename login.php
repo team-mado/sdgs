@@ -56,7 +56,7 @@ if (!empty($_POST)) {
 
 <body>
     <h1>LOGIN</h1>
-    <form action="" method="post" enctype="multipart/form-data">
+    <form action="" method="post" class="row">
         <p>Email:</p><input type="text" name="email" value="" required>
         <p>password:</p><input type="password" name="password" value="" required>
         <p><input type="submit" value="ログイン" id=""></p>
