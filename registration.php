@@ -18,11 +18,14 @@
   <link rel="stylesheet" href="css/registration.css" />
 </head>
 
+
 <body>
   <main>
-    <button class="simple_square_btn1" id="title-bt">新規登録</button>
-    <div class="form-box">
 
+    <br>
+    <h1>新規登録</h1>
+
+    <div class="form-box">
       <form action="registration_add.php" method="post" class="row">
         <label for="company">社名</label><br>
         <input class="form-style" id="GET-name" type="text" name="company_name" value="test" />
@@ -106,7 +109,7 @@
         <br />
 
         <label for="GET-name">分野</label><br>
-        <select class="form-style" id="GET-name" type="" name="businesscontent">
+        <select class="form-style" id="GET-name" type="" name="field">
         <option value="製造業">製造業</option>
         <option value="電気・ガス業">電気・ガス業</option>
         <option value="運輸・情報通信業">運輸・情報通信業</option>
@@ -145,7 +148,7 @@
     </div>
     <br>
     <div class="center">
-      <button class="simple_square_btn1">
+      <button class="simple_square_btn1" id="openModal">
         <input type="submit" value="" /><a href="registration_add.php">送信する</a></input>
       </button>
     </div>
