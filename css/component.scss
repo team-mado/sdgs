@@ -69,6 +69,10 @@ a {
   width: 80%;
   font-size: 12px;
   font-weight: bold;
+  .hissu {
+    font-size: 12px;
+    color: red;
+  }
 
   .form-style {
     //formの飾り
@@ -78,6 +82,9 @@ a {
     margin-bottom: 10px;
     border: 1px solid #6e6e6e;
     border-radius: 3px;
+    ::placeholder {
+      color: #c4c4c4;
+    }
   }
   .form-syosai {
     //formの飾り

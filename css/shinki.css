@@ -25,7 +25,6 @@ body {
 
 .selectdiv {
   position: relative;
-  /*Don't really need this just for demo styling*/
   float: left;
   min-width: 600px;
 }
