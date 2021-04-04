@@ -1,4 +1,16 @@
 @charset "UTF-8";
+.simple_square_btn1 {
+  width: 190px;
+  height: 44px;
+  margin: 0.8em;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: #00a6d9;
+  border-radius: 30px;
+}
+
 .myModal_popUp,
 input[name="myModal_switch"],
 #myModal_open + label ~ label {
@@ -42,7 +54,7 @@ input[name="myModal_switch"],
   background: #fff;
   display: block;
   width: 90%;
-  height: 80%;
+  height: 60%;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -83,7 +95,7 @@ input[name="myModal_switch"],
   width: 90%;
   height: 44px;
   position: fixed;
-  bottom: 10%;
+  bottom: 20%;
   left: 5%;
   z-index: 999;
 }
